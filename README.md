@@ -1,70 +1,11 @@
-# TDesign 通用页面模板
+# 孕妈助手
 
-基于 TDesign 打造的通用页面模板，包含通用的登陆注册、个人中心、设置中心、信息流等等功能。
+本仓库按职责划分为三个主要目录：
 
-## 模版功能预览
+| 目录 | 用途 |
+| --- | --- |
+| `miniprogram/` | 微信小程序前端源码、依赖与微信开发者工具配置。导入小程序时请选择此目录。 |
+| `server/` | 服务端代码与部署配置。第一期尚未开始实现，待确定采用微信云开发或独立后端后在此目录开发。 |
+| `docs/` | 产品、交互、接口和部署文档。 |
 
-### 首页
-
-<div style="display: flex">
-  <img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/home-1.png">
-  <img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/home-2.png">
-</div>
-
-### 信息发布
-
-<img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/publish-1.png">
-
-### 搜索页
-
-<img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/search-1.png">
-
-### 个人中心
-<div style="display: flex">
-  <img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/user-1.png">
-  <img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/user-2.png">
-  <img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/user-3.png">
-</div>
-
-
-### 设置中心
-
-<img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/setting-1.png">
-
-### 消息中心
-
-<img width="375" alt="image" src="https://tdesign.gtimg.com/miniprogram/template/message-1.png">
-
-
-## 开发预览
-### 目录结构（TODO: 生成目录结构树）
-
-
-### 在开发者工具中预览
-
-```bash
-# 安装项目依赖
-npm install
-
-```
-
-打开[微信开发者工具](https://mp.weixin.qq.com/debug/wxadoc/dev/devtools/download.html)，导入整个项目，构建 npm 包，就可以预览示例了。
-
-### 基础库版本
-
-最低基础库版本`^2.6.5`
-
-
-## 贡献成员
-
-<a href="https://github.com/TDesignOteam/tdesign-miniprogram-starter/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=TDesignOteam/tdesign-miniprogram-starter" />
-</a>
-
-## 反馈
-
-有任何问题，建议通过 [Github issues](https://github.com/TDesignOteam/tdesign-miniprogram-starter/issues) 反馈。
-
-## 开源协议
-
-TDesign 遵循 [MIT 协议](https://github.com/TDesignOteam/tdesign-miniprogram-starter/blob/main/LICENSE)。
+当前产品规划见 [docs/孕妈助手一期产品方案.md](docs/孕妈助手一期产品方案.md)。
